@@ -1,0 +1,35 @@
+{
+  "name": "maybe-gc",
+  "version": "1.0.0",
+  "description": "gc manager of object in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava",
+    "test-cov": "nyc --reporter=html --reporter=text ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toomeefed/maybe-gc.git"
+  },
+  "keywords": [],
+  "author": "楼教主 <fe.52cik@gmail.com> (http://www.52cik.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toomeefed/maybe-gc/issues"
+  },
+  "homepage": "https://github.com/toomeefed/maybe-gc#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "is": "^3.2.1",
+    "ms": "^2.1.1"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "coveralls": "^3.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "nyc": "^11.7.3"
+  }
+}
