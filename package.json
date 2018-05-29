@@ -1,5 +1,5 @@
 {
-  "name": "maybe-gc",
+  "name": "@toomee/maybe-gc",
   "version": "1.0.0",
   "description": "gc manager of object in nodejs",
   "main": "index.js",
